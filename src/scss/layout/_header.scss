@@ -1,0 +1,20 @@
+.hero{
+    background-image: url('/build/img/fondo-hero.svg');
+    height: 60rem;
+
+    background-position: 500rem;
+    background-size: cover;
+    color: $blanco;
+    padding-top: 10rem;
+
+    .titulo-hero, p{
+        color: $blanco;
+    }
+
+    @include tablet{
+        background-position: center center;
+        background-size: cover;
+        height: 90rem;
+    }
+}
+

@@ -1,0 +1,25 @@
+footer{
+    background-color: $azulOscuro;
+    padding: 2rem 0;
+    height: 7rem;
+    // padding: 10px 10px 0px 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    // position: fixed;
+    // bottom: 0;
+
+    
+    // &.footer-login{
+    //     position: fixed;
+    //     bottom: 0;
+    // }
+
+    p{
+        text-align: center;
+        color: $blanco;
+        margin: 0;
+    }
+}

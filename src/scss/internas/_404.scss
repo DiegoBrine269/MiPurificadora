@@ -1,0 +1,14 @@
+.page-404{
+    margin-top: 10rem;
+    text-align: center;
+    img{
+        max-width: 70%;
+        @include tablet{
+            max-width: 40%;
+        }
+    }
+
+    h2{
+        margin-top: 3rem;
+    }
+}

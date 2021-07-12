@@ -1,0 +1,29 @@
+.titulo-header{
+    color: $blanco;
+
+    &.titulo-inicio{
+        color:$negro;
+    }
+}
+
+
+.navbar-contenedor{
+    background-color: $azulOscuro;
+    color: $blanco;
+
+    &.inicio{
+        background-color: $blanco;
+        color: $azulOscuro;
+    }
+
+    &.page-404{
+        height: 36.3rem;
+    }
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+}

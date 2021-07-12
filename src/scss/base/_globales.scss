@@ -1,0 +1,77 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1, h2, h3 {
+    font-family: 'Palanquin', sans-serif;
+    margin: 0;
+    color: $negro;
+}
+
+h1{
+    font-size: 2.5rem;
+
+    @include telefono{
+        font-size: 3rem;
+    }
+    
+    @include tablet{
+        font-size: 3.5rem;
+    }
+}
+
+h2{
+    font-size: 2rem;
+
+    @include tablet{
+        font-size: 2.5rem;
+    }
+}
+
+h3{
+    font-size: 1.5rem;
+
+    @include tablet{
+        font-size: 2rem;
+    }
+}
+
+p{
+    text-align: left;
+}
+
+p, a, blockquote, input[type="text"], input[type="tel"], input[type="number"], input[type="email"], input[type="submit"], label{
+    font-family: $fuenteSecundaria;
+    font-size: 1.8rem;
+}
+
+a{
+    h1{
+        // color: $blanco;
+        text-decoration: none;
+        
+    }
+
+    &:link, &:visited, &:active {
+        text-decoration:none;
+    }
+}
+
+.enlace{
+    color: $azulOscuro;
+}
+
+.contenedor, .contenido-centrado{
+    margin: 0 auto;
+    max-width: 120rem;
+    width: 90%;
+}

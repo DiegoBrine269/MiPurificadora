@@ -1,0 +1,18 @@
+{
+    "name": "diieg/mi-purificadora",
+    "description": "Sistema para administrar purificadoras de agua",
+    "authors": [
+        {
+            "name": "Diego Oloarte",
+            "email": "diegooloarte269@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Models\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    }
+}

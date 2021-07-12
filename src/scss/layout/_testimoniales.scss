@@ -1,0 +1,31 @@
+.testimoniales{
+    margin-top: 7rem;
+}
+
+.contenedor-testimoniales{
+    margin-bottom: 10rem;
+    @include tablet{
+        @include grid(2, 3rem);
+    }
+
+    .testimonial{
+        background-color: $azulOscuro;
+        color: $blanco;
+        padding: 1rem 1rem 1rem 5rem;
+        border-radius: 2rem;
+        margin-top: 3rem;
+    }
+}
+
+blockquote{
+    position: relative;
+
+    .cita::before{
+        content: '\201c';
+        position: absolute;
+        font-size: 10rem;
+        left: -6rem;
+        top: -1rem;
+        font-family: 'PT Sans', sans-serif;
+    }
+}
